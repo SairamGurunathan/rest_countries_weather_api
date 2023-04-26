@@ -1,0 +1,45 @@
+body{
+    background-color: chocolate;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    /* display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit,minmax(13rem,1fr)); */
+    gap: 1rem;
+}
+.card{
+    border: 2px solid;
+    text-align: center;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    /* max-width: 13rem;
+    border-radius:0.5rem;
+    overflow: hidden; */
+    box-shadow: 3px 3px 10px 0px rgb(22,11,11);
+    background-image:linear-gradient(to right,#43cea2,#ffffff)
+}
+.card img{
+    width: 300px;
+    height: 150px;
+}
+
+.row{
+    padding: 1rem;
+}
+.row span{
+    font-weight: bold;
+}
+button{
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 6px 20px;
+    font-weight: bolder;
+    background-color: blue;
+}
+button:hover{
+    cursor: pointer;
+    background-color: chocolate;
+}
